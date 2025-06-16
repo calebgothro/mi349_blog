@@ -45,7 +45,7 @@ p{
 }
 
 #main-nav{
-    position: sticky;
+    position: -webkit-sticky;
     top: 0;
     background-color: #e63946;
     margin: 0;
