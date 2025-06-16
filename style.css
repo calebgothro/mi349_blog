@@ -10,6 +10,7 @@ body {
 section {
     padding: 0 60px;
     background: #a8dadc;
+    overflow: visible;
 }
 
 h2 {
