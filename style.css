@@ -60,16 +60,6 @@ p{
     z-index: 1000;
 }
 
-.nav-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-#copied from ChatGPT to help fix width issue
-
 #main-nav h1 {
     margin: 0;
     font-size: 1.8rem;
