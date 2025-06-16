@@ -1,19 +1,19 @@
-html {
-    background: #e3e3e3;
-}
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 40px;
     padding: 40px;
-    color: darkgray;
-    border-top: 10 px solid #242424; 
-    background: white;
+    color: #1d3557; 
+    background: #a8dadc;
 }
 
-h1 {
-    font-size: 3em;
-    margin: 0;
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:3em;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
 }
 
 p{
@@ -28,3 +28,70 @@ p{
     border-bottom: 1px dotted #ccc;
 }
 
+.pistons-pics {
+    width: 100%;
+    height:auto;
+    object-fit: cover;
+    display: block;
+    max-width: 800px;
+    margin: 1em auto;
+}
+
+#main-nav{
+    position: sticky;
+    background-color: #e63946;
+    top: 0;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#main-nav h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:  #457b9d;
+}
+
+#main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    margin: 0;
+    padding: 0;
+}
+
+#main-nav a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem;
+    color: #1d3557
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    max-width: 800px;
+    margin: auto;
+}
+
+.form-row {
+    flex: 1 1 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.full-width {
+    flex: 1 1 100%;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select, textarea {
+    padding: 0.5em;
+    border: 1px solid #8c8b8b;
+    border-radius: 4px;
+}

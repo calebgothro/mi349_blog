@@ -9,8 +9,8 @@
 <body>
     <header>
         <h1>Piston's Bandwagon</h1>
-        <p>You know the Pistons won again!!!</p>
-        <nav>
+        <nav id="main-nav">
+            <h1>Piston's Bandwagon</h1>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Me</a></li>
@@ -21,19 +21,29 @@
     <section id="Contact-Form">
         <h2>Contact Us</h2>
         <form>
-            <label>Enter your name</label>
+            <div class="form-row">
+                <label>Enter your name</label>
                 <input type="text" id="name" name="name">
-            <label>Enter your email address</label>
+            </div>
+            <div class="form-row">
+                <label>Enter your email address</label>
                 <input type="email" id="email-address" name="email-address">
-            <label for="reason">Reason for contact</label>
-            <select id="reason" name="reason">
-                <option value="saying hi">Saying hi</option>
-                <option value="looking for a contractor">Looking for a contractor</option>
-                <option value="interested in an interview">Interested in an interview</option>
-            </select>
-            <label for="comment">Leave a comment</label>
-            <textarea id="comment"></textarea>
-            <button>Submit</button>
+            </div>
+            <div class="form-row">
+                <label for="reason">Reason for contact</label>
+                <select id="reason" name="reason">
+                    <option value="saying hi">Saying hi</option>
+                    <option value="looking for a contractor">Looking for a contractor</option>
+                    <option value="interested in an interview">Interested in an interview</option>
+                </select> 
+            </div>
+            <div class="full-width">
+                <label for="comment">Leave a comment</label>
+                <textarea id="comment"></textarea>
+            </div>
+            <div class="full-width">
+                <button>Submit</button>
+            </div>
         </form>
     </section>
     
