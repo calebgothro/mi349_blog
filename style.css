@@ -1,4 +1,4 @@
-body {
+section {
     font-family: Arial, Helvetica, sans-serif;
     margin: 60px;
     color: #1d3557; 
@@ -42,7 +42,6 @@ p{
     margin: 0;
     padding: 1em;
     display: flex;
-    width: 100vw;
     justify-content: space-between;
     text-align: center;
 }
