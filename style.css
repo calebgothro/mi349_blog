@@ -16,6 +16,7 @@ section {
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size:3em;
+    text-align: center;
 }
 
 h3 {
@@ -45,7 +46,7 @@ p{
 }
 
 #main-nav{
-    position: -webkit-sticky;
+    position: sticky;
     top: 0;
     background-color: #e63946;
     margin: 0;
@@ -105,3 +106,54 @@ input, select, textarea {
     border: 1px solid #8c8b8b;
     border-radius: 4px;
 }
+
+input[type="email"] {
+    color: blue;
+    text-decoration: underline;
+}
+
+#blog {
+    display: flex;
+    box-sizing: border-box;
+}
+
+article {
+    padding: 20px;
+}
+
+.blog-post {
+    flex: 1 1 48%;
+    box-sizing: border-box;
+}
+
+#headshot {
+    display:block;
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 5;
+}
+
+#bio {
+    display: flex;
+    box-sizing: border-box;
+}
+
+#background{
+    flex: 1;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#content-creation {
+    flex: 3;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#projects {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
