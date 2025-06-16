@@ -1,10 +1,15 @@
+::before,::after{
+    box-sizing: border-box; 
+}
+#ChatGPT provided this code to fix my issue with my page width exceeding my screen
+
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #1d3557; 
     background: #a8dadc;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 section {
